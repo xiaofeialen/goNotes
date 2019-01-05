@@ -1,0 +1,3 @@
+currentDate:=time.Now() //get date
+currentTime :=currentDate.Format("2006-01-02") //format yyyy-mm-dd must is (2006-01-02)
+tempTimes:= currentDate.Unix()*1000 //get timestamp
